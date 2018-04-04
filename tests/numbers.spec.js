@@ -21,7 +21,7 @@ describe('sum numbers in string', () => {
         expect(getSum(stringWithNumbers)).toBe(6);
     });
 
-    it('should return return 0 to a empty string', () => {
+    it('should return 0 to a empty string', () => {
         const stringWithNumbers = '';
         expect(getSum(stringWithNumbers)).toBe(0);
     });
