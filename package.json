@@ -1,0 +1,27 @@
+{
+  "name": "js-problems",
+  "version": "1.0.0",
+  "description": "Resolved problems in js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "lpo19Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "html",
+      "text"
+    ]
+  }
+}
